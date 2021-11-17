@@ -31,8 +31,6 @@ public class InfoActivity extends AppCompatActivity {
         Picasso.with(this).
                 load(uri).
                 into(candyStoreImageView);
-
-
     }
 
     public void createMapIntent(View view) {
